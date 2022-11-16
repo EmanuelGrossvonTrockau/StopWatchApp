@@ -60,19 +60,14 @@ struct ContentView_Previews: PreviewProvider {
                 }
             Text("Timer")
                 .tabItem{
-                Image(systemName: "timer")
+                    Image(systemName: "timer")
                     Text("Timer")
+                
+               
             }
+                
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        .accentColor(.orange)
+        .preferredColorScheme(.dark)
     }
 }
